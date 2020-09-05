@@ -18,5 +18,10 @@ export const FRUITS = [
       id: 4,
       text: './images/grapes.png',
       correct: 'grapes'
+    },
+    {
+      id: 5,
+      text: './images/watermelon.png',
+      correct: 'watermelon'
     }
   ];

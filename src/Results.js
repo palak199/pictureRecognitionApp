@@ -9,7 +9,7 @@ class Results extends React.Component {
       var link = <a href="#app">Take Again</a>;
       return(
         <div className="well">
-          <h4>You Got {score} out of {total} Correct.</h4>
+          <h2>You know {score} fruits out of {total}.</h2>
           <hr />
           <h1>{percent}% - {percent > 60 ? message : link }</h1>
         </div>

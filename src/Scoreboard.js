@@ -4,8 +4,8 @@ class Scorebox extends React.Component {
     render(){
       return(
         <div className="well">
-          Question {this.props.current} out of {this.props.total} 
-          <span className="pull-right"><strong>Score: {this.props.score}</strong></span>
+          Fruit {this.props.current} out of {this.props.total} 
+          <span className="pull-right"><strong> Score: {this.props.score}</strong></span>
         </div>
       )
     }

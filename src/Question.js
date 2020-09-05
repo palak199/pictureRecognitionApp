@@ -18,10 +18,7 @@ class Question extends React.Component {
         const question = this.props.question;
         return(
           <div className="well">
-            <hr />
             <img src={require(`${question.text}`)} width={500} height={300}></img>
-            
-            <hr />
             <Speech 
             answer={question.correct}
             callbackFromParent={this.handleMarks}
