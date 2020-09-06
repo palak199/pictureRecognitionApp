@@ -1,4 +1,5 @@
 export const FRUITS = [
+ 
     {
       id: 1,
       text: './images/apple.png',
@@ -23,5 +24,15 @@ export const FRUITS = [
       id: 5,
       text: './images/watermelon.png',
       correct: 'watermelon'
+    },
+    {
+      id: 6,
+      text: './images/pineapple.png',
+      correct: 'pineapple'
+    },
+    {
+      id: 7,
+      text: './images/cherry.png',
+      correct: 'cherry'
     }
   ];
