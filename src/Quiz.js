@@ -2,7 +2,7 @@ import React from 'react';
 import Results from './Results';
 import Scorebox from './Scoreboard';
 import Question from './Question';
-
+import './Quiz.css';
 class Quiz extends React.Component {
     constructor(props) {
       super(props);
@@ -25,7 +25,7 @@ class Quiz extends React.Component {
     render() {
       const questions = this.props.questions;
       return (
-        <div>
+        <div className="Quiz">
           {this.state.current > questions.length &&
             <Results total={questions.length} score={this.state.score}/>
           }

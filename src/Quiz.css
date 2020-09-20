@@ -1,0 +1,41 @@
+.Quiz {
+  height:625px;
+  text-align: center; 
+  background-image: url('./images/background.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+}
+
+.fruit-img{
+  margin-top: 50px;
+}
+
+.final{
+  background-image: url('./images/result.gif'); 
+  height:500px;
+  background-repeat: no-repeat;
+}
+
+.title{
+  margin-top: 20px;
+}
+
+.icon:hover{
+  transition: 0.9s;
+  transform: rotateX(180deg);
+}
+
+.score-div {
+  margin: 0 auto;
+	border: .15em solid rgb(23, 23, 56);
+	border-radius: 5em;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.3em;
+	line-height: 2em;
+	cursor: pointer;	
+  color: rgb(23, 23, 56);
+}
+ 
+

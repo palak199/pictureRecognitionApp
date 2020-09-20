@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import Quiz from './Quiz'
 // import Navbar from './Navbar'
+import Main from './Main'
 import sound from './sounds/welcome.wav'
-import {FRUITS} from './Fruits';
-import './App.css';
+
 
 class App extends Component {
   constructor(props) {
@@ -12,8 +12,8 @@ class App extends Component {
   }
 
   welcomeSound(){
-    var a=new Audio(sound);
-    a.play();
+    var welcome=new Audio(sound);
+    welcome.play();
   }
 
   componentDidMount() { 
@@ -22,8 +22,9 @@ class App extends Component {
 
   render(){
   return (
-    <div className="App">
-      <Quiz questions={FRUITS}/>
+    <div>
+      <Main/>
+      
     </div>
   );
 }

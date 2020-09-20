@@ -4,14 +4,12 @@ class Results extends React.Component {
     render(){
       const score = this.props.score;
       const total = this.props.total;
-      const percent = score/total*100;
-      var message = 'You passed the quiz!';
-      var link = <a href="#app">Take Again</a>;
+      const percent = Math.round(score/total*100);
       return(
-        <div className="well">
+        <div className="final">
           <h2>You know {score} fruits out of {total}.</h2>
           <hr />
-          <h1>{percent}% - {percent > 60 ? message : link }</h1>
+          <h1>{percent}%</h1>
         </div>
       );
       

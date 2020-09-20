@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition'
-import correct_ans from './sounds/right_ans.mp3'
-import wrong_ans from './sounds/wrong_ans.mp3'
+import correct_ans from './sounds/right.mp3'
+import wrong_ans from './sounds/wrong.mp3'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlayCircle,faStopCircle } from '@fortawesome/free-solid-svg-icons'
 
@@ -52,15 +52,12 @@ const Speech = (props) => {
   
   return (
     <div>
-      
-      <p>say we're listening</p>
-      <FontAwesomeIcon onClick={SpeechRecognition.startListening} size="6x" icon={faPlayCircle}/>
-      <FontAwesomeIcon onClick={SpeechRecognition.stopListening} size="6x" icon={faStopCircle}/>
-      <p>{transcript}</p>
-      {message!=='' && correctSound(message)
-      }
-      {message!=='' && <p>You are {message}</p>
-    }
+      <h3 className="title">What is this??</h3>
+      <FontAwesomeIcon className="icon" role="button" onClick={SpeechRecognition.startListening} size="6x" icon={faPlayCircle}/>
+      <FontAwesomeIcon className="icon" role="button" onClick={SpeechRecognition.stopListening} size="6x" icon={faStopCircle}/>
+      <h4>you think it is {transcript}</h4>
+      {message!=='' && correctSound(message)}
+      {message!=='' && <h3>You are {message}</h3>}
      
     </div>
   )

@@ -3,9 +3,9 @@ import React from 'react'
 class Scorebox extends React.Component {
     render(){
       return(
-        <div className="well">
-          Fruit {this.props.current} out of {this.props.total} 
-          <span className="pull-right"><strong> Score: {this.props.score}</strong></span>
+        <div>
+          <h3>Fruit {this.props.current} out of {this.props.total} </h3>
+          <button className="score-div">Score: {this.props.score}</button>
         </div>
       )
     }

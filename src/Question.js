@@ -1,6 +1,6 @@
 import React from 'react';
 import Speech from './Speech';
-
+import './Quiz.css';
 class Question extends React.Component {
     constructor(props) {
       super(props);
@@ -17,8 +17,8 @@ class Question extends React.Component {
     render() {
         const question = this.props.question;
         return(
-          <div className="well">
-            <img src={require(`${question.text}`)} width={500} height={300}></img>
+          <div>
+            <img className="fruit-img" src={require(`${question.text}`)} width={400} height={200}></img>
             <Speech 
             answer={question.correct}
             callbackFromParent={this.handleMarks}
