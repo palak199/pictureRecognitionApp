@@ -1,4 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PictureRecognitionApp
+It is a speech to text web app that helps nursery kids to learn picture recognition. Currently it teaches them fruits through a quiz.
+
+# How
+The app uses npm **speech-recognition** and then matches the correct fruit name to the one kid spoke.
+
+
+## Features
+
+There is a scoreboard which tells how many fruits kid recognized correctly.
+After every response an audio plays corresponding to accuracy.
+At the end the result score and percentage is displayed.
+
+
+## Further
+
+Its use can be expanded by adding more varieties of pictures like vegetables, objects etc.
 
 ## Available Scripts
 
