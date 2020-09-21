@@ -34,5 +34,20 @@ export const FRUITS = [
       id: 7,
       text: './images/cherry.png',
       correct: 'cherry'
+    },
+    {
+      id: 8,
+      text: './images/pear.png',
+      correct: 'pear'
+    },
+    {
+      id: 9,
+      text: './images/apricot.png',
+      correct: 'apricot'
+    },
+    {
+      id: 10,
+      text: './images/litchi.png',
+      correct: 'lichi'
     }
   ];

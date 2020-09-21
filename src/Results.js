@@ -7,9 +7,8 @@ class Results extends React.Component {
       const percent = Math.round(score/total*100);
       return(
         <div className="final">
-          <h2>You know {score} fruits out of {total}.</h2>
-          <hr />
-          <h1>{percent}%</h1>
+          <h2 id="final-text">You know {score} fruits out of {total}.<br></br> {percent}%</h2>
+          
         </div>
       );
       

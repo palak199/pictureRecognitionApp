@@ -52,10 +52,9 @@ const Speech = (props) => {
   
   return (
     <div>
-      <h3 className="title">What is this??</h3>
-      <FontAwesomeIcon className="icon" role="button" onClick={SpeechRecognition.startListening} size="6x" icon={faPlayCircle}/>
-      <FontAwesomeIcon className="icon" role="button" onClick={SpeechRecognition.stopListening} size="6x" icon={faStopCircle}/>
-      <h4>you think it is {transcript}</h4>
+      <FontAwesomeIcon className="icon" role="button" onClick={SpeechRecognition.startListening} size="3x" icon={faPlayCircle}/>
+      <span><FontAwesomeIcon className="icon" role="button" onClick={SpeechRecognition.stopListening} size="3x" icon={faStopCircle}/></span>
+      <h3>you think it is {transcript}</h3>
       {message!=='' && correctSound(message)}
       {message!=='' && <h3>You are {message}</h3>}
      
