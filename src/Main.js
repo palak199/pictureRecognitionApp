@@ -9,8 +9,8 @@ export default function Main() {
   return (
     <div>
       {!state && (
-        <div role="button" onClick={() => toggle(true)} className="Main">
-          <div className="Main-div">
+        <div role="button" onClick={() => toggle(true)} className="main">
+          <div className="main__header">
             <h2>CLICK ON ANY FRUIT TO START THE QUIZ</h2>
           </div>
         </div>

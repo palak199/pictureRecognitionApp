@@ -20,6 +20,7 @@ class Question extends React.Component {
         <img
           className="fruit-img"
           src={require(`${question.text}`)}
+          alt={`${question}`}
           width={400}
           height={200}
         ></img>
