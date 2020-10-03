@@ -1,62 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Mali:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Mali:wght@700&display=swap");
 
 .Quiz {
-  height:625px;
-  text-align: center; 
-  background-image: url('./images/background.jpg'); 
-  background-repeat: no-repeat; 
+  height: 100vh;
+  text-align: center;
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Just Another Hand', cursive;
+  font-family: "Just Another Hand", cursive;
   font-size: 1.8rem;
   letter-spacing: 0.3ch;
 }
 
-.fruit-img{
+.fruit-img {
   margin-top: 50px;
 }
 
-
-
-.title{
+.title {
   margin-top: 20px;
 }
-
-.icon{
+.speech > .icon {
   color: black;
-  
+  font-size: xx-large;
 }
 
-.icon:hover{
+.speech > .MuiSvgIcon-root {
+  font-size: 100px;
+}
+.speech > .icon:hover {
   transition: 0.9s;
   transform: rotateX(180deg);
 }
-
+.speech > span {
+  font-size: xx-large;
+  font-size: 100p;
+}
 
 .score-div {
   margin: 0 auto;
-	border: .15em solid rgb(23, 23, 56);
-	border-radius: 5em;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 1.3em;
-	line-height: 2em;
-	cursor: pointer;	
+  border: 0.15em solid rgb(23, 23, 56);
+  border-radius: 5em;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 2em;
+  cursor: pointer;
   color: rgb(23, 23, 56);
 }
- 
-.score-title{
+
+.score-title {
   padding-top: 20px;
 }
 
-.final{
-  background-image: url('./images/result.gif'); 
-  height:622px;
+.final {
+  background-image: url("./images/result.gif");
+  height: 622px;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
-#final-text{
+#final-text {
   position: absolute;
-  top:20%;
-  left:40%}
+  top: 20%;
+  left: 40%;
+}
