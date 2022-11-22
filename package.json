@@ -16,7 +16,7 @@
     "react-audio-player": "^0.13.0",
     "react-dom": "^16.13.1",
     "react-fontawesome": "^1.7.1",
-    "react-scripts": "3.4.3",
+    "react-scripts": "5.0.1",
     "react-sound": "^1.2.0",
     "react-speech-recognition": "^3.2.2",
     "reactstrap": "^8.5.1",
